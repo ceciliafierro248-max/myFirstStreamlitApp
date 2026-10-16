@@ -1,8 +1,8 @@
 name: Deploy Streamlit to GitHub Pages
 on:
   push:
-    branches: [ main ]
-    
+    branches: [ main ] # Change to master if your default branch is named master
+
 permissions:
   contents: read
   pages: write
@@ -18,15 +18,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22' # Upgraded to 22 to meet stlite's engine requirements
 
       - name: Convert Streamlit to Static HTML
         run: |
-          # 1. Install the correct stlite CLI globally in the runner environment
-          npm install -g @stlite/cli
-          
-          # 2. Run the export command using your filename (code.py)
-          stlite-cli export code.py
+          # Executes the export command directly using the correct package format
+          npx --package=@stlite/cli stlite-cli export code.py
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -35,6 +32,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'dist'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
           
       - name: Deploy to GitHub Pages
         id: deployment
