@@ -22,7 +22,11 @@ jobs:
 
       - name: Convert Streamlit to Static HTML
         run: |
-          npx @stlite/mountable@latest export code.py
+          # 1. Install the correct stlite CLI globally in the runner environment
+          npm install -g @stlite/cli
+          
+          # 2. Run the export command using your filename (code.py)
+          stlite-cli export code.py
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
