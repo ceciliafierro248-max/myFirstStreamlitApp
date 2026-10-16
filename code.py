@@ -291,7 +291,7 @@ st.header("Anyway, if you didn't find the chart impressive enough...", divider='
 st.text("Here is an image for your troubles")
 
 st.text("This is an image of a self driving car, isn't cool!")
-st.image("/Users/ceciliafierro/Downloads/selfDrivingCar.jpeg")
+st.image("selfDrivingCar.jpeg")
 
 car()
 
