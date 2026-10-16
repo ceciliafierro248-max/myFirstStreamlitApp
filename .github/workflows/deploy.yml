@@ -1,8 +1,8 @@
 name: Deploy Streamlit to GitHub Pages
 on:
   push:
-    branches: [ main ] # Change to master if your default branch is named master
-
+    branches: [ main ]
+    
 permissions:
   contents: read
   pages: write
@@ -22,8 +22,6 @@ jobs:
 
       - name: Convert Streamlit to Static HTML
         run: |
-          # CRITICAL: Replace 'main.py' below with your actual root Python filename 
-          # (e.g., app.py, streamlit_app.py) if it is named differently!
           npx @stlite/mountable@latest export code.py
           
       - name: Setup Pages
