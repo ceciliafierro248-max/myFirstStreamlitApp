@@ -22,11 +22,14 @@ jobs:
 
       - name: Convert Streamlit to Static HTML
         run: |
-          # 1. Install the package locally in the workspace
+          # 1. Install the package locally
           npm install @stlite/cli
           
-          # 2. Run the compiler directly via its local bin path
-          ./node_modules/.bin/stlite export code.py
+          # 2. Create the target deployment directory
+          mkdir -p dist
+          
+          # 3. Use the correct subcommand format to export code.py to the dist folder
+          ./node_modules/.bin/stlite html . --entrypoint code.py -o dist/index.html
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
