@@ -63,7 +63,7 @@ def name():
     nameInput = st.text_input("Name")
     if nameInput and harassmentVar == True:
         st.text("Did you actually type your name? Wow, I am surprised considering you are a...")
-        st.image("/Users/ceciliafierro/Desktop/stinkyPoopImage.jpeg")
+        st.image("stinkyPoopImage.jpeg")
         return
     
     if nameInput:
@@ -126,7 +126,7 @@ def wantToSeeAChart():
     noCheckbox = st.checkbox("No")
     if yesCheckbox and noCheckbox and harassmentVar == True:
         st.text("Stop trying to cheat the system! You are really acting like a ...")
-        st.image("/Users/ceciliafierro/Desktop/stinkyPoopImage.jpeg")
+        st.image("stinkyPoopImage.jpeg")
         harassmentVar == True
         return st.text(harassmentVar)
     
@@ -137,7 +137,7 @@ def wantToSeeAChart():
     
     if noCheckbox and harassmentVar == True:
         st.text("Honestly this answer doesn't surprise me, considering you are a ...")
-        st.image("/Users/ceciliafierro/Desktop/stinkyPoopImage.jpeg")
+        st.image("stinkyPoopImage.jpeg")
         return
     
     if yesCheckbox and noCheckbox:
@@ -157,7 +157,7 @@ def car():
 
     if answerToCar == 'Yes, I think they are cool.' and harassmentVar == True:
         st.text("Me too! Though you are still a ...")
-        st.image("/Users/ceciliafierro/Desktop/stinkyPoopImage.jpeg")
+        st.image("stinkyPoopImage.jpeg")
         return
     
     if answerToCar == 'Select' and harassmentVar == True:
