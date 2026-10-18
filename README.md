@@ -16,6 +16,6 @@ https://ceciliafierro248-max.github.io/myFirstStreamlitApp/
 Video is coming soon!
 
 ---
-
+<br>
 This project was created as part of Hack Club Snowglobe
 
