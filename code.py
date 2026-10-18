@@ -112,7 +112,7 @@ def pickANumber():
         threeChoicesCounter = int(len(st.session_state.pANsliderList))
         #st.text(", ".join(map(str, number_list)))
         #st.text(", ".join(map(str, st.session_state.pANsliderList)))
-        st.text("Your current number is " + str(pANslider) + ". You have previously select the following numbers: " + ", ".join(map(str, st.session_state.pANsliderList)))
+        st.text("Your current number is " + str(pANslider) + ". You have previously selected the following numbers: " + ", ".join(map(str, st.session_state.pANsliderList)))
     
     if threeChoicesCounter >= 3:
         st.text("Dude! It is just a number! Just pick one, this doesn't have to have any deeper meaning.")
