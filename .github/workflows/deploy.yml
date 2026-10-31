@@ -29,7 +29,7 @@ jobs:
           mkdir -p dist
           
           # 3. Use the correct subcommand format to export code.py to the dist folder
-          ./node_modules/.bin/stlite html . --entrypoint code.py -o dist/index.html
+          ./node_modules/.bin/stlite html . --entrypoint myFirstStreamlit_app.py -o dist/index.html
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
