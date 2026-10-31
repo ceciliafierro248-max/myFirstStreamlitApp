@@ -1,0 +1,18 @@
+Improvement notes 10/9 ->
+-Import a data set and go off on a tangent about the data, then rencorporate the 'get back on task segement
+-Play with the spacing a bit, maybe see if you like current set up or not
+-Add in some fun colors or other elements to add to the disfunction
+-Comment the crap out of the code
+-Control when the ballons, snow, and toast go off, and make it more intellitional (make it add to the disfunction without being disfunction)
+
+Improvement notes 10/13 ->
+-Fixed all the function stuff, so there are no errors except in getting the harassment version to kick in for the second checkbox
+-Created harassment mode (next update you might want to provide more variety, but for now it is perfect)
+-Still to need import real data and go off on a tangent and rencorporate the 'get back on task' segmenet
+-Did not add fun colors
+-Did play around with spacing, continue to play around with it
+-Did comment some of the code
+-Did fix the intentionalaty of ballons, snow, and toast
+
+Improvement notes 10/15 ->
+-Fixed all that I wanted to fix I think, preparing to deploy
