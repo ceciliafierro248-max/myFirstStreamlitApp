@@ -11,17 +11,11 @@ https://ceciliafierro248-max.github.io/myFirstStreamlitApp/
 ---
 <br>
 
-# Video Demo
-
-Video is coming soon!
-
-
-<br>
-
 # Snowglobe
 This project was created as part of Hack Club Snowglobe. Thank you for the opportunity!
+<br><br>
 
-*Important Note for reviewers → After looking at my hackatime and github side by side, I realized that some my files names did not match as well as some files being classified under the project that were never part of the project. I re-named the files in the Github repo to match better with the names from hackatime.
+**Important Note for reviewers** → After looking at my hackatime and github side by side, I realized that some my files names did not match as well as some files being classified under the project that were never part of the project. I re-named the files in the Github repo to match better with the names from hackatime.
 <br>
 <br>
 The following files where not intended to be classified under this project → /…/factorialFunction/updateForDeployment and /…/Basic Streamlit Website/bStreamLit.py
@@ -32,5 +26,12 @@ The following files are included in the repo (aka the two files with the most ti
 <br><br>
 <br>
 Please let me know if you have any concerns or questions, as I would be happy to answer them. :) 
+
+---
+<br>
+
+# Video Demo
+
+Video is coming soon!
 
 
